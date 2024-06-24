@@ -149,6 +149,15 @@ Once your PR is reviewed and approved, it will be merged into the main branch.
 
 ---
 
+## Other Links
+* For more details on the machine learning classification model used in this project, visit the following repository:
+[ML Classification Model Repository](https://github.com/KumarUtsav1025/sentiment_analysis_notebook)
+
+* To see the server deployment for this project, check out this repository:
+[Server Deployment Repository](https://github.com/KumarUtsav1025/sentiment_analysis_server)
+
+---
+
 ##  License
 
 This project is protected under the [MIT](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://github.com/KumarUtsav1025/youtube_sentiment_extension/blob/main/LICENSE/) file.
