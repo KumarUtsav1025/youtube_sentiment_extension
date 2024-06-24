@@ -1,0 +1,91 @@
+body {
+    background: rgba(30, 210, 231, 0.17);
+}
+
+.btn{
+    background-color: rgba(30, 210, 231, 0.17);;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+}
+
+#resultImg{
+    height: 110px;
+    width: 196px;
+    border-radius: 10px;
+    color: black;
+}
+
+#errorImg{
+    height: 125px;
+    width: 125px;
+    border-radius: 15px;
+}
+
+#welcomeImage{
+    height: 80px;
+    width: 180px;
+    border-radius: 15px;
+    object-fit: cover;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Inter", -apple-system, "Nunito", BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+p1{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.resultHead{
+    margin: 0px;
+    padding-block: 5px;
+}
+
+.resultText{
+    margin: 0px;
+    padding-bottom: 2px;
+    text-align: center;
+    font-size: 24;
+    font-weight:600;
+}
+
+.container {
+    background: rgba(30, 210, 231, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(30, 210, 231, 0.3);
+    min-width: 100px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultBox{
+    height: min-content;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* .subBox{
+    height: 100px;
+    width: 100px;
+} */
+
+#resultImage{
+    padding-inline: 6px;
+    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+    object-fit:cover;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Youtube Video Sentiment Analyser</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Youtube Video Comment<br/>Sentiment Analyser</h1>
+        <!-- Welcome Container -->
+         <div id="welcomeBox" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <img id="welcomeImage" src="images/youtube-animation.gif" alt="img"/>
+            <img id="loadingImage" hidden src="images/loading.gif" alt="img" style="height: 125px; width: 125px;"/>
+            <div style="height: 10px;"></div>
+            <button class="btn" id="get-btn">Get Sentiment!</button>
+            <div style="height: 10px;"></div>
+            <p1 id="welcomeText" style="text-align: center;">Extension to help you understand video sentiment better</p1>
+         </div>
+
+         <!-- Error Container -->
+         <div id="errorBox" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <img id="errorImg" src="images/sad.gif" alt="img"/>
+            <div style="height: 10px;"></div>
+            <p1 id="errorText" style="text-align: center;">This does not look like a youtube video...</p1>
+         </div>
+        
+         <!-- Result COntainer -->
+        <div id="resultsBox" style="height: min-content; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <img id="resultImg" src="images/icon16.png" alt="img1"/>
+            <p id="videoName" style="font-size: 16px; font-weight: 500; margin: 0px; padding-top: 3px; padding-bottom: 6px;">video name</p>
+            <div class = 'resultBox'>
+                <div class="subBox">
+                    <p class="resultText">Positive</p>
+                    <img src="images/positive.gif" id="resultImage" alt="resultImage">
+                    <p class="resultText" id="positive">84.5%</p>
+                </div>
+                <div class="subBox">
+                    <p class="resultText">Neutral</p>
+                    <img src="images/neutral.gif" id="resultImage" alt="resultImage">
+                    <p class="resultText" id="neutral">84.5%</p>
+                </div>
+                <div class="subBox">
+                    <p class="resultText">Negative</p>
+                    <img src="images/negative.gif" id="resultImage" alt="resultImage">
+                    <p class="resultText" id="negative">84.5%</p>
+                </div>
+            </div>
+            
+        </div>
+        <div style="height: 15px;"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
